@@ -1,0 +1,51 @@
+import  os , time , sys , shutil
+
+kelas  Utama :
+
+	def  __init__ ( sendiri ):
+		diri . detekos ()
+
+	 menu def ( sendiri ):
+		cetak ( "" "
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		; SPAMSMS;
+		; ---------------------------;
+		; Penulis: noobie;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CATATAN: Alat ini hanya berfungsi untuk telepon nomor Indonesia.
+1. SMS Gratis
+2. OTP Matahari
+3. OTP Hallodok
+4. OTP Olx.co.id
+5. OTP Sociolla.com
+"" " )
+		pilih = int ( input ( 'noobie />' ))
+		jika  pilih  ==  1 :
+			impor  src . payu
+		elif  pilih  ==  2 :
+			impor  src . matahari
+		elif  pilih  ==  3 :
+			impor  src . alodok
+		elif  pilih  ==  4 :
+			impor  src . olx
+		elif  pilih  ==  5 :
+			impor  src . socil.dll
+		else : print ( "[!] lihat menu dong (o)" ); diri . menu ()
+
+	def  detekos ( diri ):
+		#hapus tembolok
+		coba :
+			diam . rmtree ( "src / __ pycache__" )
+		kecuali : lulus
+
+		jika  os . nama  di [ 'nt' , 'win32' ]:
+			os . sistem ( 'cls' )
+		lain : os . sistem ( 'jelas' )
+		diri . menu ()
+
+coba :
+	Utama ()
+kecuali  KeyboardInterrupt :
+	exit ( '[Exit] Key interrupt' )
+kecuali  Pengecualian  sebagai  F :
+	cetak ( 'Err:% s' % ( F ))
